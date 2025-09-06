@@ -2,7 +2,7 @@ body {
     margin: 0;
     padding: 0;
     height: 100vh;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Poppins', sans-serif;
     color: #fff;
     display: flex;
     align-items: center;
@@ -27,7 +27,7 @@ body {
 
 .button-layout {
     height: 55vh;
-    margin: auto 10px;
+    margin: auto 25px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
@@ -53,4 +53,37 @@ body {
 
 .number {
     background-color: #333;
+}
+
+.equal:hover {
+    background-color: #28873e;
+    transition: all ease-in 0.2s;
+}
+
+.operator:hover {
+    background-color: #28873e;
+    transition: all ease-in 0.2s;
+}
+
+.number:hover {
+    background-color: #7d7d7d;
+    transition: all ease-in 0.2s;
+}
+
+.clear:hover{
+    background-color: #7d7d7d;
+    transition: all ease-in 0.2s;
+}
+
+.dot:hover{
+    background-color: #7d7d7d;
+    transition: all ease-in 0.2s;
+}
+
+img {
+    height: 2rem;
+    position: absolute;
+    top: 28vh;
+    left: 50vh;
+    cursor: pointer;
 }

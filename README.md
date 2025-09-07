@@ -16,7 +16,6 @@
         <li>Decimal support (.) 🔢</li>
         <li>Clear (C) 🧹 and backspace ⌫</li>
         <li>Keyboard support ⌨️</li>
-        <li>Responsive layout for desktop 🖥️ and mobile 📱</li>
         <li>Modern glass UI with blinking caret ✨</li>
     </ul>
 <h2>📷 Preview</h2>

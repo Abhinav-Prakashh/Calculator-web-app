@@ -21,8 +21,8 @@
     </ul>
 <h2>📷 Preview</h2>
 <p align="center">
-    <img src="./assets/calc.png"><br>
-    <img src="./assets/Calc-with-code.png"><br>
+    <img src="./assets/calc.png" width="400"><br>
+    <img src="./assets/Calc-with-code.png" width="400"><br>
 </p>
 
 <h2>💻 How to Use</h2>

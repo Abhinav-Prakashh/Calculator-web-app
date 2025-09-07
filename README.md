@@ -19,6 +19,11 @@
         <li>Responsive layout for desktop 🖥️ and mobile 📱</li>
         <li>Modern glass UI with blinking caret ✨</li>
     </ul>
+<h2>📷 Preview</h2>
+<p align="center">
+    <img src="./assets/calc.png"><br>
+    <img src="./assets/Calc-with-code.png"><br>
+</p>
 
 <h2>💻 How to Use</h2>
     <ol>

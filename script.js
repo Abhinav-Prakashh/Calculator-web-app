@@ -4,6 +4,8 @@ const backspace = document.querySelector(".visual-box i");
 
 let expression = "";
 
+// ---ADDING CLICKING EVENTS TO THE UI---
+
 buttons.forEach(function(button){
     button.addEventListener("click", function() {
         const value = button.textContent;
@@ -68,5 +70,9 @@ document.addEventListener("keydown", function(e) {
     else if (key === 'c' || key === 'C') {
         expression = "";
         display.value = "";
+    }
+    else if(key === '.'){
+        expression += key;
+        display.value = expression;
     }
 });

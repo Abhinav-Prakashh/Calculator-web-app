@@ -25,7 +25,7 @@ body {
     border-bottom: 2px solid grey;
     margin: 30px 30px 20px 30px;
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
     align-items: center;
     padding: 0 15px;
     min-height: 20vh;
@@ -51,6 +51,7 @@ body {
     width: 90%;
     border-radius: 40px;
     background-color: #333;
+    transition: all ease-in 0.2s;
 }
 
 .operator, .equal {
@@ -63,27 +64,27 @@ body {
 
 .equal:hover {
     background-color: #333;
-    transition: all ease-in 0.2s;
+    
 }
 
 .operator:hover {
     background-color: #333;
-    transition: all ease-in 0.2s;
+    
 }
 
 .number:hover {
     background-color: #28a745;
-    transition: all ease-in 0.2s;
+    
 }
 
 .clear:hover{
     background-color: #7d7d7d;
-    transition: all ease-in 0.2s;
+    
 }
 
 .dot:hover{
     background-color: #7d7d7d;
-    transition: all ease-in 0.2s;
+    
 }
 
 i {
@@ -103,6 +104,9 @@ i {
     border: none;
     font-size: 4rem;
     outline: none;
+    caret-color: transparent;
+    text-align: right;
+    flex: 1;
 }
 
 .visual-box::after {

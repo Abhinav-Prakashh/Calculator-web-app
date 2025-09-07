@@ -20,6 +20,7 @@
         <li>Modern glass UI with blinking caret ✨</li>
     </ul>
 <h2>📷 Preview</h2>
+<p>Link to the Calculator : https://calculator-web-app-sandy.vercel.app/</p>
 <p align="center">
     <img src="./assets/calc.png" width="400"><br>
 </p>

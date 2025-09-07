@@ -21,7 +21,7 @@ body {
 
 .visual-box {
     position: relative;
-    height: 30vh;
+    height: 28vh;
     border-bottom: 2px solid grey;
     margin: 30px 30px 20px 30px;
     display: flex;
@@ -29,6 +29,7 @@ body {
     align-items: center;
     padding: 0 15px;
     min-height: 20vh;
+    color: #fff;
 }
 
 .button-layout {
@@ -49,7 +50,8 @@ body {
     font-size: 1.5rem;
     height: 100%;
     width: 90%;
-    border-radius: 40px;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
     background-color: #333;
     transition: all ease-in 0.2s;
 }
@@ -90,7 +92,7 @@ body {
 i {
     font-size: 2rem;
     position: absolute;
-    top: 22vh;
+    top: 20vh;
     left: 45vh;
     cursor: pointer;
     border-radius: 40px;
@@ -98,6 +100,7 @@ i {
 }
 
 #display {
+    color: white;
     height: 20vh;
     width: 100%;
     background: none;

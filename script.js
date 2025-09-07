@@ -43,3 +43,30 @@ backspace.addEventListener("click", function() {
     expression = expression.slice(0, -1);
     display.value = expression;
 });
+
+// --- KEYBOARD SUPPORT ---
+
+document.addEventListener("keydown", function(e) {
+    const key = e.key;
+
+    if (key >= '0' && key <= '9'){
+        expression += key;
+        display.value = expression;
+    }
+    else if (key === '+' || key === '-' || key === '*' || key === '/') {
+        expression += key;
+        display.value = expression;
+    }
+    else if (key === 'Enter' || key === '=') {
+        expression = eval(expression).toString();
+        display.value = expression;
+    }
+    else if (key === 'Backspace') {
+        expression = expression.slice(0, -1);
+        display.value = expression;
+    }
+    else if (key === 'c' || key === 'C') {
+        expression = "";
+        display.value = "";
+    }
+});

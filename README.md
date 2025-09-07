@@ -40,7 +40,7 @@
     </ul>
 
 <h2>📌 License</h2>
-    <p>This project is <strong>MIT licensed</strong> – free to use and modify.</p>
+    <p>“This project is open and free to use for personal or educational purposes.” ✅</p>
 
 </body>
 </html>
